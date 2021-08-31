@@ -23,7 +23,7 @@ class PeerConnection {
 	var connection: NWConnection?
 	let initiatedConnection: Bool
 
-	// Create an outbound connection when the user initiates a game.
+	// Create an outbound connection when the user initiates a negotiation.
 	init(endpoint: NWEndpoint, interface: NWInterface?, passcode: String, delegate: PeerConnectionDelegate) {
 		self.delegate = delegate
 		self.initiatedConnection = true
@@ -34,7 +34,7 @@ class PeerConnection {
 		startConnection()
 	}
 
-	// Handle an inbound connection when the user receives a game request.
+	// Handle an inbound connection when the user receives a negotiation request.
 	init(connection: NWConnection, delegate: PeerConnectionDelegate) {
 		self.delegate = delegate
 		self.connection = connection
@@ -43,7 +43,7 @@ class PeerConnection {
 		startConnection()
 	}
 
-	// Handle the user exiting the game.
+	// Handle the user exiting the negotiation.
 	func cancel() {
 		if let connection = self.connection {
 			connection.cancel()

@@ -1,5 +1,5 @@
 //
-//  GameProtocol.swift
+//  ExchangeProtocol.swift
 //  Bitfinex Demo
 //
 //  Created by Jonathan Gikabu on 28/08/2021.

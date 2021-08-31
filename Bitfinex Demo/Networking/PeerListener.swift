@@ -63,7 +63,7 @@ class PeerListener {
 						// Accept a new connection.
 						sharedConnection = PeerConnection(connection: newConnection, delegate: delegate)
 					} else {
-						// If a game is already in progress, reject it.
+						// If a negotiation is already in progress, reject it.
 						newConnection.cancel()
 					}
 				}
