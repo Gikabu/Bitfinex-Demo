@@ -24,6 +24,7 @@
 		179FD1E926DC2628009F2985 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1E826DC2628009F2985 /* Listing.swift */; };
 		179FD1ED26DC5D75009F2985 /* NegotiationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1EC26DC5D75009F2985 /* NegotiationView.swift */; };
 		179FD1EF26DC7F97009F2985 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1EE26DC7F97009F2985 /* Exchange.swift */; };
+		17AF36DB26DE593B00E862FD /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 179FD1E526DC25C0009F2985 /* SwiftyJSON */; };
 		B5BCE0BC13433AD21F79127D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5BCEA6ECE7A615FF8C5C9EF /* LICENSE */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AF36DB26DE593B00E862FD /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +162,7 @@
 			);
 			name = "Bitfinex Demo";
 			packageProductDependencies = (
-				179FD1E526DC25C0009F2985,
+				179FD1E526DC25C0009F2985 /* SwiftyJSON */,
 			);
 			productName = "Bitfinex Demo";
 			productReference = 179FD1B026D98A05009F2985 /* Bitfinex Demo.app */;
@@ -190,7 +192,7 @@
 			);
 			mainGroup = 179FD1A726D98A05009F2985;
 			packageReferences = (
-				179FD1E426DC25C0009F2985,
+				179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 179FD1B126D98A05009F2985 /* Products */;
 			projectDirPath = "";
@@ -362,6 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Bitfinex Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 9F2SA4NZTN;
 				ENABLE_PREVIEWS = YES;
@@ -371,7 +374,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gikabu.Bitfinex-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gikabu.bitfinex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,6 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Bitfinex Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = 9F2SA4NZTN;
 				ENABLE_PREVIEWS = YES;
@@ -393,7 +397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gikabu.Bitfinex-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gikabu.bitfinex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,7 +428,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		179FD1E426DC25C0009F2985 = {
+		179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
 			requirement = {
@@ -435,9 +439,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		179FD1E526DC25C0009F2985 = {
+		179FD1E526DC25C0009F2985 /* SwiftyJSON */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 179FD1E426DC25C0009F2985;
+			package = 179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
 			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
