@@ -21,10 +21,10 @@
 		179FD1DF26DC0D69009F2985 /* ProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1DE26DC0D69009F2985 /* ProfileSetupView.swift */; };
 		179FD1E126DC14A5009F2985 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1E026DC14A5009F2985 /* String+Ext.swift */; };
 		179FD1E326DC186B009F2985 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1E226DC186B009F2985 /* DashboardView.swift */; };
-		179FD1E626DC25C0009F2985 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 179FD1E526DC25C0009F2985 /* SwiftyJSON */; };
 		179FD1E926DC2628009F2985 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1E826DC2628009F2985 /* Listing.swift */; };
 		179FD1ED26DC5D75009F2985 /* NegotiationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1EC26DC5D75009F2985 /* NegotiationView.swift */; };
 		179FD1EF26DC7F97009F2985 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1EE26DC7F97009F2985 /* Exchange.swift */; };
+		B5BCE0BC13433AD21F79127D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5BCEA6ECE7A615FF8C5C9EF /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +47,7 @@
 		179FD1E826DC2628009F2985 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
 		179FD1EC26DC5D75009F2985 /* NegotiationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegotiationView.swift; sourceTree = "<group>"; };
 		179FD1EE26DC7F97009F2985 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		B5BCEA6ECE7A615FF8C5C9EF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				179FD1E626DC25C0009F2985 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +66,7 @@
 			children = (
 				179FD1B226D98A05009F2985 /* Bitfinex Demo */,
 				179FD1B126D98A05009F2985 /* Products */,
+				B5BCEA6ECE7A615FF8C5C9EF /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,7 +160,7 @@
 			);
 			name = "Bitfinex Demo";
 			packageProductDependencies = (
-				179FD1E526DC25C0009F2985 /* SwiftyJSON */,
+				179FD1E526DC25C0009F2985,
 			);
 			productName = "Bitfinex Demo";
 			productReference = 179FD1B026D98A05009F2985 /* Bitfinex Demo.app */;
@@ -189,7 +190,7 @@
 			);
 			mainGroup = 179FD1A726D98A05009F2985;
 			packageReferences = (
-				179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				179FD1E426DC25C0009F2985,
 			);
 			productRefGroup = 179FD1B126D98A05009F2985 /* Products */;
 			projectDirPath = "";
@@ -207,6 +208,7 @@
 			files = (
 				179FD1BB26D98A07009F2985 /* Preview Assets.xcassets in Resources */,
 				179FD1B826D98A07009F2985 /* Assets.xcassets in Resources */,
+				B5BCE0BC13433AD21F79127D /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +424,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+		179FD1E426DC25C0009F2985 = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
 			requirement = {
@@ -433,9 +435,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		179FD1E526DC25C0009F2985 /* SwiftyJSON */ = {
+		179FD1E526DC25C0009F2985 = {
 			isa = XCSwiftPackageProductDependency;
-			package = 179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			package = 179FD1E426DC25C0009F2985;
 			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
