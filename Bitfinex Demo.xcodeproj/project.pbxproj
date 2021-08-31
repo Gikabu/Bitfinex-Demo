@@ -3,23 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		179FD1B426D98A05009F2985 /* Bitfinex_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1B326D98A05009F2985 /* Bitfinex_DemoApp.swift */; };
-		179FD1B626D98A05009F2985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1B526D98A05009F2985 /* ContentView.swift */; };
+		179FD1B426D98A05009F2985 /* BitfinexDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1B326D98A05009F2985 /* BitfinexDemoApp.swift */; };
+		179FD1B626D98A05009F2985 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1B526D98A05009F2985 /* RootView.swift */; };
 		179FD1B826D98A07009F2985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179FD1B726D98A07009F2985 /* Assets.xcassets */; };
 		179FD1BB26D98A07009F2985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179FD1BA26D98A07009F2985 /* Preview Assets.xcassets */; };
+		179FD1C826D98B19009F2985 /* NWParameters+InitWithPasscode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1C326D98B19009F2985 /* NWParameters+InitWithPasscode.swift */; };
+		179FD1C926D98B19009F2985 /* PeerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1C426D98B19009F2985 /* PeerBrowser.swift */; };
+		179FD1CA26D98B19009F2985 /* PeerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1C526D98B19009F2985 /* PeerListener.swift */; };
+		179FD1CB26D98B19009F2985 /* PeerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1C626D98B19009F2985 /* PeerConnection.swift */; };
+		179FD1CC26D98B19009F2985 /* ExchangeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1C726D98B19009F2985 /* ExchangeProtocol.swift */; };
+		179FD1D826D9A9F7009F2985 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1D726D9A9F7009F2985 /* Preferences.swift */; };
+		179FD1DA26D9AF85009F2985 /* ExchangeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1D926D9AF85009F2985 /* ExchangeManager.swift */; };
+		179FD1DF26DC0D69009F2985 /* ProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1DE26DC0D69009F2985 /* ProfileSetupView.swift */; };
+		179FD1E126DC14A5009F2985 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1E026DC14A5009F2985 /* String+Ext.swift */; };
+		179FD1E326DC186B009F2985 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1E226DC186B009F2985 /* DashboardView.swift */; };
+		179FD1E626DC25C0009F2985 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 179FD1E526DC25C0009F2985 /* SwiftyJSON */; };
+		179FD1E926DC2628009F2985 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1E826DC2628009F2985 /* Listing.swift */; };
+		179FD1ED26DC5D75009F2985 /* NegotiationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1EC26DC5D75009F2985 /* NegotiationView.swift */; };
+		179FD1EF26DC7F97009F2985 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179FD1EE26DC7F97009F2985 /* Exchange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		179FD1B026D98A05009F2985 /* Bitfinex Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitfinex Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		179FD1B326D98A05009F2985 /* Bitfinex_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitfinex_DemoApp.swift; sourceTree = "<group>"; };
-		179FD1B526D98A05009F2985 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		179FD1B326D98A05009F2985 /* BitfinexDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitfinexDemoApp.swift; sourceTree = "<group>"; };
+		179FD1B526D98A05009F2985 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		179FD1B726D98A07009F2985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		179FD1BA26D98A07009F2985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		179FD1BC26D98A07009F2985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179FD1C326D98B19009F2985 /* NWParameters+InitWithPasscode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NWParameters+InitWithPasscode.swift"; sourceTree = "<group>"; };
+		179FD1C426D98B19009F2985 /* PeerBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerBrowser.swift; sourceTree = "<group>"; };
+		179FD1C526D98B19009F2985 /* PeerListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerListener.swift; sourceTree = "<group>"; };
+		179FD1C626D98B19009F2985 /* PeerConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerConnection.swift; sourceTree = "<group>"; };
+		179FD1C726D98B19009F2985 /* ExchangeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExchangeProtocol.swift; sourceTree = "<group>"; };
+		179FD1D726D9A9F7009F2985 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		179FD1D926D9AF85009F2985 /* ExchangeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeManager.swift; sourceTree = "<group>"; };
+		179FD1DE26DC0D69009F2985 /* ProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupView.swift; sourceTree = "<group>"; };
+		179FD1E026DC14A5009F2985 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		179FD1E226DC186B009F2985 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		179FD1E826DC2628009F2985 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		179FD1EC26DC5D75009F2985 /* NegotiationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegotiationView.swift; sourceTree = "<group>"; };
+		179FD1EE26DC7F97009F2985 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179FD1E626DC25C0009F2985 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +80,11 @@
 		179FD1B226D98A05009F2985 /* Bitfinex Demo */ = {
 			isa = PBXGroup;
 			children = (
-				179FD1B326D98A05009F2985 /* Bitfinex_DemoApp.swift */,
-				179FD1B526D98A05009F2985 /* ContentView.swift */,
+				179FD1E726DC25D2009F2985 /* Models */,
+				179FD1D626D9A9DB009F2985 /* Utils */,
+				179FD1D526D9A092009F2985 /* Views */,
+				179FD1C226D98AEF009F2985 /* Networking */,
+				179FD1B326D98A05009F2985 /* BitfinexDemoApp.swift */,
 				179FD1B726D98A07009F2985 /* Assets.xcassets */,
 				179FD1BC26D98A07009F2985 /* Info.plist */,
 				179FD1B926D98A07009F2985 /* Preview Content */,
@@ -67,6 +98,48 @@
 				179FD1BA26D98A07009F2985 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		179FD1C226D98AEF009F2985 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				179FD1C726D98B19009F2985 /* ExchangeProtocol.swift */,
+				179FD1C326D98B19009F2985 /* NWParameters+InitWithPasscode.swift */,
+				179FD1C426D98B19009F2985 /* PeerBrowser.swift */,
+				179FD1C626D98B19009F2985 /* PeerConnection.swift */,
+				179FD1C526D98B19009F2985 /* PeerListener.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		179FD1D526D9A092009F2985 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				179FD1B526D98A05009F2985 /* RootView.swift */,
+				179FD1DE26DC0D69009F2985 /* ProfileSetupView.swift */,
+				179FD1E226DC186B009F2985 /* DashboardView.swift */,
+				179FD1EC26DC5D75009F2985 /* NegotiationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		179FD1D626D9A9DB009F2985 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				179FD1D726D9A9F7009F2985 /* Preferences.swift */,
+				179FD1D926D9AF85009F2985 /* ExchangeManager.swift */,
+				179FD1E026DC14A5009F2985 /* String+Ext.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		179FD1E726DC25D2009F2985 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				179FD1E826DC2628009F2985 /* Listing.swift */,
+				179FD1EE26DC7F97009F2985 /* Exchange.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +158,9 @@
 			dependencies = (
 			);
 			name = "Bitfinex Demo";
+			packageProductDependencies = (
+				179FD1E526DC25C0009F2985 /* SwiftyJSON */,
+			);
 			productName = "Bitfinex Demo";
 			productReference = 179FD1B026D98A05009F2985 /* Bitfinex Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +188,9 @@
 				Base,
 			);
 			mainGroup = 179FD1A726D98A05009F2985;
+			packageReferences = (
+				179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 179FD1B126D98A05009F2985 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +217,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				179FD1B626D98A05009F2985 /* ContentView.swift in Sources */,
-				179FD1B426D98A05009F2985 /* Bitfinex_DemoApp.swift in Sources */,
+				179FD1C926D98B19009F2985 /* PeerBrowser.swift in Sources */,
+				179FD1E326DC186B009F2985 /* DashboardView.swift in Sources */,
+				179FD1B626D98A05009F2985 /* RootView.swift in Sources */,
+				179FD1C826D98B19009F2985 /* NWParameters+InitWithPasscode.swift in Sources */,
+				179FD1CB26D98B19009F2985 /* PeerConnection.swift in Sources */,
+				179FD1DF26DC0D69009F2985 /* ProfileSetupView.swift in Sources */,
+				179FD1D826D9A9F7009F2985 /* Preferences.swift in Sources */,
+				179FD1E926DC2628009F2985 /* Listing.swift in Sources */,
+				179FD1DA26D9AF85009F2985 /* ExchangeManager.swift in Sources */,
+				179FD1EF26DC7F97009F2985 /* Exchange.swift in Sources */,
+				179FD1CA26D98B19009F2985 /* PeerListener.swift in Sources */,
+				179FD1B426D98A05009F2985 /* BitfinexDemoApp.swift in Sources */,
+				179FD1CC26D98B19009F2985 /* ExchangeProtocol.swift in Sources */,
+				179FD1ED26DC5D75009F2985 /* NegotiationView.swift in Sources */,
+				179FD1E126DC14A5009F2985 /* String+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +420,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		179FD1E526DC25C0009F2985 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 179FD1E426DC25C0009F2985 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 179FD1A826D98A05009F2985 /* Project object */;
 }
